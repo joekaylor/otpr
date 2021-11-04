@@ -130,7 +130,7 @@ otp_get_isochrone <-
     # Mode is restricted for the isochrone function so handled in this function
     checkmate::assert_choice(
       mode,
-      choices = c("WALK", "BUS", "RAIL", "TRAM", "SUBWAY", "TRANSIT"),
+      choices = c("WALK", "BUS", "RAIL", "TRAM", "SUBWAY", "TRANSIT", "CAR", "BICYCLE"),
       null.ok = F,
       add = args.coll
     )
